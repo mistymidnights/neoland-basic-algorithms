@@ -81,3 +81,32 @@ let o = p + j;
 let c = 10;
 let m = 5;
 let i = (c * m);
+
+// Iteración 4
+
+// Consigue el valor "HULK" del array de avengers y muestralo por consola.
+const avengers = ["HULK", "SPIDERMAN", "BLACK PANTHER"];
+const nameAvenger = avengers[0];
+
+// Cambiar el valor del 1 avenger a ironman
+avengers[0] = "Ironman";
+console.log(avengers);
+
+//console numero de elementos en el array usando la propiedad correcta de Array.
+
+console.log(avengers.length);
+
+// Añade 2 elementos al array: "Morty" y "Summer". 
+// Muestra en consola el último personaje del array
+
+const rickAndMortyCharacters = ["Rick", "Beth", "Jerry"];
+
+rickAndMortyCharacters.push("Morty");
+rickAndMortyCharacters.push("Summer");
+
+console.log("LA DE CONTAR", rickAndMortyCharacters[4]);
+
+// lenght - longitud [1,2,3] - 3
+// position - 0, 1, 2
+// lenght 3 lenght - 1 =  2 position
+console.log("LA BUENA", rickAndMortyCharacters[rickAndMortyCharacters.length - 1]);
