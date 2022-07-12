@@ -48,3 +48,36 @@ car1.finalPrice = car1.basePrice + globalBasePrice;
 console.log("MODIFICADO", car1);
 car2.finalPrice = car2.basePrice + globalBasePrice;
 console.log("MODIFICADO", car2);
+
+// Iteración 3
+
+// Multiplica 10 por 5 y muestra el resultado mediante console.log.
+let multiplicacion = 10 * 5;
+
+console.log(multiplicacion);
+
+// Divide 10 por 2 y muestra el resultado en un console.log.
+
+let division = (10 / 2);
+
+console.log(division);
+
+// Muestra mediante un console.log el resto de dividir 15 por 9
+
+let resto = 15 % 9;
+
+console.log(resto);
+
+// Usa el correcto operador de asignación que resultará en o = 15,
+// teniendo dos variables p = 10 y j = 5.
+
+let p = 10;
+let j = 5;
+let o = p + j;
+
+// Usa el correcto operador de asignación que resultará en i = 50,
+// teniendo dos variables c = 10 y m = 5.
+
+let c = 10;
+let m = 5;
+let i = (c * m);
