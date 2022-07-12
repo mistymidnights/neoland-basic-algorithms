@@ -145,3 +145,31 @@ if ((number3 * 5 == number1) && (number1 * 2 == number2)) {
 if ((number2 / 2 == number1) || (number1 / 5 == number3)) {
   console.log("number2 entre 2 es igual a number1 O number1 entre 5 es igual a number3");
 }
+
+// Iteracion 6
+
+
+for (let index=0; index<10;index++){
+  console.log(index);
+}
+
+
+
+for (let index = 0; index < 10; index++){
+  if (index % 2 === 0) {
+    console.log(index);
+  }
+}
+
+/* 1.3 */
+
+let dormido =[];
+
+for (let x=0; x<11;x++){
+  dormido[x]= 'Intentando dormir'+x;}
+
+dormido[dormido.length-1]="Ya estoy dormido";{
+
+console.log(dormido);
+  
+}
